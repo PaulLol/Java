@@ -576,42 +576,60 @@ public class Main {
             {
                 sqlToMongo(db);
                 exitInt++;
-            }else if(command.equals("restart"))
+
+            }else if(command.equals("shutdown"))
+            {
+                System.exit(0);
+            }else if(command.equals("URI"))
+            {
+                System.out.print("URI: >");
+                uri = in.nextLine();
+                try
+                {
+                    clientURI = new MongoClientURI(uri);
+                    mongoClient = new MongoClient(clientURI);
+
+                }catch (IllegalArgumentException e)
+                {
+                    System.out.println("Wrong input URI");
+                    System.exit(0);
+                }
+                System.out.println("Switch to URI: " +uri);
+            }else if(command.equals("local"))
+            {
+
+                mongoClient = new MongoClient("localhost", 27017);
+                System.out.println("Switch to local: host: localhost, port:27017");
+            }
+            else if(command.equals("restart"))
             {
                 System.out.println("Initial settings. Please respond to:");
                 System.out.println("URI or local ?");
-                System.out.print( ">");
+                System.out.print(">");
                 choice = in.nextLine();
-                choice=choice.replaceAll("\\s","");
-                if(choice.equals("URI"))
-                {
+                choice = choice.replaceAll("\\s", "");
+                if (choice.equals("URI")) {
                     System.out.print("URI: >");
                     uri = in.nextLine();
-                    uri=uri.replaceAll("\\s","");
+                    uri = uri.replaceAll("\\s", "");
                     //Test URI
-                    try
-                    {
+                    try {
                         clientURI = new MongoClientURI(uri);
                         mongoClient = new MongoClient(clientURI);
 
-                    }catch (IllegalArgumentException e)
-                    {
+                    } catch (IllegalArgumentException e) {
                         System.out.println("Wrong input URI");
                         System.exit(0);
                     }
-                } else if(choice.equals("local"))
-                {
+                } else if (choice.equals("local")) {
+                    mongoClient = new MongoClient("localhost", 27017);
                     System.out.println("host:localhost, port:27017");
-                    mongoClient = new MongoClient( "localhost" , 27017 );
                 } else
-                {
+                    {
                     System.out.print("Wrong input!");
                     System.exit(0);
                 }
                 exitInt++;
-            }else if(command.equals("shutdown"))
-            {
-                System.exit(0);
             }else
             {
                 System.out.println("Wrong input!");
