@@ -1,5 +1,6 @@
 Installation
 
+Must be installed Java ver 1.8 
 If need use local mongodb, need install and start mongod, 
 else in program have connect to URI.
 
