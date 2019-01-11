@@ -3,4 +3,4 @@ jdk:
   - oraclejdk8
   - openjdk7
 before_install:
-  - cd src/java
+  - cd src/Main.java
