@@ -12,7 +12,7 @@ Program realize such mongo-command:
  -show dbs;
  -show collections;
  
-and own
+ And own:
  -restart (restart program, to the beginning);
  -shutdown (exit from the program);
  -local (switch to local);
