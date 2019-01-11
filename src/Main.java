@@ -544,7 +544,7 @@ public class Main {
             System.exit(0);
         }
 
-        DB db = mongoClient.getDB("mydb");
+        DB db = mongoClient.getDB("admin");
         int exitInt =10;
 
         for(int i=0;i<=exitInt;i++)
