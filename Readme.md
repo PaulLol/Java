@@ -20,6 +20,7 @@ Program realize such mongo-command:
  -sql (use sql query);
  
 Command "sql" turns the entered sql-query to mongo-query and shows result.
+
 The assembled program is in /out/artifacts/Project_main_jar/Project_main.jar.
  
  
