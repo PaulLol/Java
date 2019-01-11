@@ -23,5 +23,11 @@ Command "sql" turns the entered sql-query to mongo-query and shows result.
 
 The assembled program is in /out/artifacts/Project_main_jar/Project_main.jar.
  
+For testing, I used the following parameters:
  
+uri: mongodb+srv://admin:1234890@mongodb-oxtlk.mongodb.net/admin;
+
+database: MongoDB;
+
+sql: select *from Library where Sex=male order by name desc limit 1
 
