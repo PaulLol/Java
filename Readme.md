@@ -20,8 +20,10 @@ Program realize such mongo-command:
  -local (switch to local);
  -URI (switch to URI);
  -sql (use sql query);
- 
-Command "sql" turns the entered sql-query to mongo-query and shows result.
+
+Command "sql" turns the entered sql-query to mongo-query and shows result
+
+(>sql -> SQL> select... )
 
 The assembled program is in /out/artifacts/Project_main_jar/Project_main.jar.
  
