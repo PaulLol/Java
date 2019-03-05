@@ -1,0 +1,30 @@
+﻿05/мар/2019 15:06:29,906- BaseClass: Page opened
+05/мар/2019 15:06:29,908- BaseClass: Сurrency matching test started
+05/мар/2019 15:06:30,112- BaseClass: Currency matching test passed successfully
+05/мар/2019 15:06:31,361- BaseClass: Change to USD
+05/мар/2019 15:06:31,455- BaseClass: Search product, dress
+05/мар/2019 15:06:33,455- BaseClass: Test of quantity product started
+05/мар/2019 15:06:33,498- BaseClass: Test of quantity product passed successfully
+05/мар/2019 15:06:33,499- BaseClass: Test of currency of all goods found started
+05/мар/2019 15:06:33,638- BaseClass: Test of currency of all goods found passed successfully
+05/мар/2019 15:06:34,117- BaseClass: Change sort
+05/мар/2019 15:06:36,118- BaseClass: Test sort of goods started
+05/мар/2019 15:06:36,265- BaseClass: Test sort of goods passed successfully
+05/мар/2019 15:06:36,265- BaseClass: Test of discount started
+05/мар/2019 15:06:36,398- BaseClass: Test of discount passed successfully
+05/мар/2019 15:06:39,125- BaseClass: Page closed
+05/мар/2019 15:07:02,133- BaseClass: Page opened
+05/мар/2019 15:07:02,135- BaseClass: Сurrency matching test started
+05/мар/2019 15:07:02,321- BaseClass: Currency matching test passed successfully
+05/мар/2019 15:07:04,100- BaseClass: Change to USD
+05/мар/2019 15:07:04,196- BaseClass: Search product, dress
+05/мар/2019 15:07:06,197- BaseClass: Test of quantity product started
+05/мар/2019 15:07:06,239- BaseClass: Test of quantity product passed successfully
+05/мар/2019 15:07:06,240- BaseClass: Test of currency of all goods found started
+05/мар/2019 15:07:06,352- BaseClass: Test of currency of all goods found passed successfully
+05/мар/2019 15:07:06,835- BaseClass: Change sort
+05/мар/2019 15:07:08,836- BaseClass: Test sort of goods started
+05/мар/2019 15:07:08,992- BaseClass: Test sort of goods passed successfully
+05/мар/2019 15:07:08,992- BaseClass: Test of discount started
+05/мар/2019 15:07:09,137- BaseClass: Test of discount passed successfully
+05/мар/2019 15:07:11,847- BaseClass: Page closed
